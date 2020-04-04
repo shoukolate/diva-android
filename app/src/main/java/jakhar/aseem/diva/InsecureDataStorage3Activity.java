@@ -31,8 +31,7 @@
  */
 package jakhar.aseem.diva;
 
-import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -40,7 +39,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 
 public class InsecureDataStorage3Activity extends AppCompatActivity {
